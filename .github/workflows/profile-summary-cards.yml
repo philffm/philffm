@@ -19,3 +19,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+
+      - name: Commit generated cards
+        run: |
+          git config user.email "profile-summary-cards-bot@example.com"
+          git config user.name "profile-summary-cards[bot]"
+          git add profile-summary-card-output
+          if git diff --cached --quiet; then
+            echo "No card changes to commit."
+            exit 0
+          fi
+          git commit -m "Generate profile summary cards"
+          git push
