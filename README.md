@@ -26,10 +26,12 @@ I enjoy building lean, functional tools—mostly centered around AI integration 
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=philffm&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=philffm&layout=compact&theme=tokyonight&hide=html,css" />
+  <img height="180em" src="./profile-summary-card-output/tokyonight/3-stats.svg" />
+  <img height="180em" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
 </p>
-
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
+</p>
 ---
 
 ### 📫 Find me online
